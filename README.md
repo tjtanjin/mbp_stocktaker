@@ -72,7 +72,7 @@ Within your crontab file, add the following entry:
  */15 * * * * usr/bin/python3 /path/to/where/you/store/mbp_script
 ```
 * Note that both your paths above might differ depending on where your python is installed and its current version. Do also make sure you have selenium installed. The guide above also does not cover setting up sendgrid API which is necessary for the notification email to be sent!
-* To watch the browser in action, modify the code to change headless mode to true.
+* To watch the browser in action, modify the code to change headless mode to false.
 * If you wish to host your telegram bot online 24/7, do checkout the guide [here](https://gist.github.com/tjtanjin/ce560069506e3b6f4d70e570120249ed).
 
 ### Team
